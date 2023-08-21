@@ -21,8 +21,12 @@
         }
         
         a {
-            padding-left: 0.5em;
+            padding-left: 2em;
             text-decoration: none;
+            // font-weight: bold;
+        }
+
+        span:hover {
             font-weight: bold;
         }
     }
