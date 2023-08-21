@@ -10,8 +10,8 @@
         padding: clamp(var(--spacing-x-small), 4vw, var(--spacing-x-large)) clamp(var(--spacing-medium), 3.75vw, var(--spacing-x-large));
     }
 
-    #title {
-        font-weight: bold;
+    #logo {
+        height: 5em;
     }
 
     .nav--primary {
