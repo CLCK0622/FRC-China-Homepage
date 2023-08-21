@@ -6,13 +6,18 @@
 }
 
 body {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8)), url(https://www.firstinspires.org/sites/default/files/uploads/hero_headers/header-image_1.jpg);
+    // background-image: linear-gradient(to right, var(--backgroundColor), var(--backgroundColorgd), url(/public/assets/images/bg-image.jpg));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8)), url(/assets/images/bg-image.jpg);
 }
 
 // Very basic support for a dark color scheme
 @media (prefers-color-scheme: dark) {
     :root {
         --color-mode: 'dark';
+    }
+
+    body {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)), url(/assets/images/bg-image.jpg) !important;
     }
 
     :root:not([data-user-color-scheme]) {
