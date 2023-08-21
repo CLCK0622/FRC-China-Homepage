@@ -10,6 +10,10 @@
         padding: clamp(var(--spacing-x-small), 4vw, var(--spacing-x-large)) clamp(var(--spacing-medium), 3.75vw, var(--spacing-x-large));
     }
 
+    #title {
+        font-weight: bold;
+    }
+
     .nav--primary {
         
         ul {
@@ -19,6 +23,7 @@
         a {
             padding-left: 0.5em;
             text-decoration: none;
+            font-weight: bold;
         }
     }
 }
