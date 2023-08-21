@@ -1,16 +1,10 @@
 <nav class="nav nav--primary" role="navigation" tabindex="-1">
     {# Nav Links  #}
     <ul class="nav__menu">
-        {%- for item in collections.all | eleventyNavigation -%}
-            {%- if item.url -%}
-                {%- set isCurrent = (item.url == page.url) -%}
-                {%- set isParent = item.url != '/' and item.url in page.url -%}
-                <li class="nav__item{% if isCurrent or isParent %} nav__item--active{% endif %}">
-                    <a class="nav__link" href="{% if isCurrent %}#main{% else %}{{ item.url | url }}{% endif %}" {% if isCurrent %} aria-current="page" {% endif %}>
-                        {{ item.title }}
-                    </a>
-                </li>
-            {%- endif -%}
-        {%- endfor -%}
+        <li>
+            <a href="https://wiki.firstrobotics.com.cn/">维基</a>
+        </li>
+        <li><a>论坛</a></li>
+        <li><a>博客</a></li>
     </ul>
 </nav>

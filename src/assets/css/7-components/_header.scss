@@ -13,13 +13,12 @@
     .nav--primary {
         
         ul {
-            font-size: var(--fluid-2);
-            margin: 0.75rem 0;
+            display: flex;
         }
         
         a {
-            display: block;
-            padding: 0.25em 0;
+            padding-left: 0.5em;
+            text-decoration: none;
         }
     }
 }

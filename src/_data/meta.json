@@ -1,8 +1,8 @@
 {
-    "title": "Eleventy Plus Vite",
-    "description": "An Eleventy 2 Starter Project with Vite",
-    "url": "https://eleventyplusvite.netlify.app",
-    "lang": "en",
-    "locale": "en_us",
-    "author": "Matthias Ott"
+    "title": "FRC-China",
+    "description": "Homepage for FRC-China Project",
+    "url": "https://www.firstrobotics.com.cn",
+    "lang": "zh",
+    "locale": "zh_cn",
+    "author": "CLCK0622 | FRC-China Team"
 }
