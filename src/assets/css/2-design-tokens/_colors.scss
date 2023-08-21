@@ -5,6 +5,10 @@
     --backgroundColor: #ffffff;
 }
 
+body {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8)), url(https://www.firstinspires.org/sites/default/files/uploads/hero_headers/header-image_1.jpg);
+}
+
 // Very basic support for a dark color scheme
 @media (prefers-color-scheme: dark) {
     :root {

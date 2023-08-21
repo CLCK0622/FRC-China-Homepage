@@ -19,3 +19,9 @@ body {
     padding: 2rem 1rem; // fallback
     padding: 2rem clamp(var(--spacing-medium), 3.75vw, var(--spacing-x-large));
 }
+
+.main {
+    .container {
+        padding-bottom: 5em;
+    }
+}
