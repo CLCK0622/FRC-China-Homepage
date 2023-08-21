@@ -13,6 +13,3 @@ _site/
 # Misc
 .DS_Store
 .env
-
-# Local Netlify folder
-.netlify
