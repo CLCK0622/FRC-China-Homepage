@@ -17,7 +17,7 @@ body {
     }
 
     body {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)), url(/assets/images/bg-image.jpg) !important;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(/assets/images/bg-image.jpg) !important;
     }
 
     :root:not([data-user-color-scheme]) {
